@@ -1,0 +1,12 @@
+usage: launch.py [-h] [--path PATH] {scan,init,hook} ...
+
+RepoGuard � revisa lo que vas a subir, sin mostrar secretos
+
+positional arguments:
+  {scan,init,hook}
+    init            Crear configuraci�n vac�a sin modificar Git
+    hook            Instalar un pre-commit solo si no existe
+
+options:
+  -h, --help        show this help message and exit
+  --path PATH
